@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Career Information Day is your interactive guide to exploring a wide range of professions. Discover career paths, essential skills, and opportunities to build your future.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berufsinformationstag</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="animated">Berufsinformationstag</h1>
+    <nav class="animated">
+      <ul>
+        <li><a href="#overview">Übersicht</a></li>
+        <li><a href="#professions">Berufe</a></li>
+        <li><a href="#about">Über uns</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container wrapping the three sections -->
+  <div class="sections-container">
+    <section id="overview">
+      <h2>Übersicht</h2>
+      <p>Willkommen auf unserer Website zum Berufsinformationstag. Entdecken Sie verschiedene Berufe und finden Sie den Beruf, der am besten zu Ihnen passt!</p>
+    </section>
+
+    <section id="professions">
+      <h2>Berufe</h2>
+      <div class="profession-list">
+        {% for profession in professions %}
+        <div class="profession-card animated" onclick="location.href='/profession/{{ profession.name|urlencode }}'">
+          <h3>{{ profession.name }}</h3>
+          <p>{{ profession.short_description }}</p>
+        </div>        
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Über uns</h2>
+      <p>Wir, Jeremy Fröb, Lukas Grimm, Hans-Jakob Paschold und Marius Rosenbusch, sind die Seminarfachgruppe "Medienproduktion - Video- und Websiteproduktion für Berifsinfromationstage". Zusammen mit unserem Außenbetreuer Sascha Horn, haben wir uns der Aufgabe gesetllt für den Berufsinformationstag des Rotary Clubs Interviews zu führen, Werbung, Videos zu erstellen und diese Website für künftige Generationen zu veröffetnlichen.</p>
+    </section>
+  </div>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookieConsent" class="cookie-consent">
+    <p>
+      This website uses cookies to enhance your experience. By continuing to use our website, you accept our cookie policy.
+      <a href="/cookie-policy" target="_blank" style="color: #fff; text-decoration: underline;">Learn More</a>
+    </p>
+    <div class="cookie-buttons">
+      <button id="acceptAllCookies">Accept All</button>
+      <button id="openCookieSettings">Settings</button>
+    </div>
+  </div>
+
+  <!-- Cookie Settings Modal -->
+  <div id="cookieSettingsModal" class="cookie-settings-modal">
+    <div class="cookie-settings-content">
+      <h2>Cookie Settings</h2>
+      <form id="cookieSettingsForm">
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" checked disabled>
+            Essential Cookies (Always Active)
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="performanceCookies" name="performanceCookies">
+            Performance Cookies
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="functionalityCookies" name="functionalityCookies">
+            Functionality Cookies
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="advertisingCookies" name="advertisingCookies">
+            Advertising Cookies
+          </label>
+        </div>
+        <div class="cookie-settings-buttons">
+          <button type="button" id="saveCookieSettings">Save Settings</button>
+          <button type="button" id="cancelCookieSettings">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Career Information Day. All rights reserved.</p>
+  </footer>
+</body>
+</html>

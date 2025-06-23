@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Career Information Day is your interactive guide to exploring a wide range of professions. Discover career paths, essential skills, and opportunities to build your future.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ profession.name }} - Berufsinformationstag</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+  <header>
+    <h1>{{ profession.name }}</h1>
+    <a class="back-link" href="/">← Zurück zur Übersicht</a>
+  </header>
+
+  <section>
+    <h2>Über den Beruf</h2>
+    <p>{{ profession.description }}</p>
+    <h3>benötigte Fähigkeiten:</h3>
+    <ul>
+      {% for skill in profession.skills %}
+      <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+    {% if profession.video_url %}
+    <video width="560" controls>
+      <source src="{{ url_for('static', filename='videos/' ~ profession.video_url) }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    {% endif %}
+
+  </section>
+
+   <!-- Cookie Consent Banner -->
+   <div id="cookieConsent" class="cookie-consent">
+    <p>
+      This website uses cookies to enhance your experience. By continuing to use our website, you accept our cookie policy.
+      <a href="/cookie-policy" target="_blank" style="color: #fff; text-decoration: underline;">Learn More</a>
+    </p>
+    <div class="cookie-buttons">
+      <button id="acceptAllCookies">Accept All</button>
+      <button id="openCookieSettings">Settings</button>
+    </div>
+  </div>
+
+  <!-- Cookie Settings Modal -->
+  <div id="cookieSettingsModal" class="cookie-settings-modal">
+    <div class="cookie-settings-content">
+      <h2>Cookie Settings</h2>
+      <form id="cookieSettingsForm">
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" checked disabled>
+            Essential Cookies (Always Active)
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="performanceCookies" name="performanceCookies">
+            Performance Cookies
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="functionalityCookies" name="functionalityCookies">
+            Functionality Cookies
+          </label>
+        </div>
+        <div class="cookie-setting">
+          <label>
+            <input type="checkbox" id="advertisingCookies" name="advertisingCookies">
+            Advertising Cookies
+          </label>
+        </div>
+        <div class="cookie-settings-buttons">
+          <button type="button" id="saveCookieSettings">Save Settings</button>
+          <button type="button" id="cancelCookieSettings">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>&copy; <span id="year"></span> Career Information Day. All rights reserved.</p>
+  </footer>
+</body>
+</html>
