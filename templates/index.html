@@ -4,13 +4,13 @@
   <meta name="description" content="Career Information Day is your interactive guide to exploring a wide range of professions. Discover career paths, essential skills, and opportunities to build your future.">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Berufsinformationstag</title>
+  <title>Karrieretag</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
 </head>
 <body>
   <header>
-    <h1 class="animated">Berufsinformationstag</h1>
+    <h1 class="animated">Karrieretag</h1>
     <nav class="animated">
       <ul>
         <li><a href="#overview">Übersicht</a></li>
@@ -24,7 +24,7 @@
   <div class="sections-container">
     <section id="overview">
       <h2>Übersicht</h2>
-      <p>Willkommen auf unserer Website zum Berufsinformationstag. Entdecken Sie verschiedene Berufe und finden Sie den Beruf, der am besten zu Ihnen passt!</p>
+      <p>Willkommen auf unserer Website zum Karrieretag. Entdecken Sie verschiedene Berufe und finden Sie den Beruf, der am besten zu Ihnen passt!</p>
     </section>
 
     <section id="professions">
@@ -33,7 +33,7 @@
         {% for profession in professions %}
         <div class="profession-card animated" onclick="location.href='/profession/{{ profession.name|urlencode }}'">
           <h3>{{ profession.name }}</h3>
-          <p>{{ profession.short_description }}</p>
+          <p>{{ profession.person }}</p>
         </div>        
         {% endfor %}
       </div>
@@ -41,7 +41,7 @@
 
     <section id="about">
       <h2>Über uns</h2>
-      <p>Wir, Jeremy Fröb, Lukas Grimm, Hans-Jakob Paschold und Marius Rosenbusch, sind die Seminarfachgruppe "Medienproduktion - Video- und Websiteproduktion für Berifsinfromationstage". Zusammen mit unserem Außenbetreuer Sascha Horn, haben wir uns der Aufgabe gesetllt für den Berufsinformationstag des Rotary Clubs Interviews zu führen, Werbung, Videos zu erstellen und diese Website für künftige Generationen zu veröffetnlichen.</p>
+      <p>Wir, Jeremy Fröb, Lukas Grimm, Hans-Jakob Paschold und Marius Rosenbusch, sind die Seminarfachgruppe "Medienproduktion - Video- und Websiteproduktion für Karrieretage". Zusammen mit unserem Außenbetreuer Sascha Horn, haben wir uns der Aufgabe gestellt für den Karrieretag des Rotary Clubs Interviews zu führen, Werbung, Videos zu erstellen und diese Website für künftige Generationen zu veröffentlichen.</p>
     </section>
   </div>
 

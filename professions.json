@@ -1,276 +1,410 @@
 [
-  
   {
     "person": "Doris Beier-Storch",
     "name": "Geschäftsführende Gesellschafterin",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
-    "video_url": "Test.mp4"
+    "short_description": "Strategische Unternehmensführerin",
+    "description": "Als geschäftsführende Gesellschafterin leitet sie das Unternehmen mit Weitblick und strategischem Geschick. Ihr Fokus liegt auf einer nachhaltigen Unternehmensentwicklung, der Förderung einer positiven Unternehmenskultur und der langfristigen Sicherung von Marktanteilen durch Innovationskraft.",
+    "skills": ["Strategische Unternehmensplanung", "Personalführung", "Organisationsentwicklung"],
+    "video_url": ""
   },
-
+  {
+    "person": "Tony Militzer",
+    "name": "Küchen-/Innenausbau",
+    "short_description": "Experte für individuelles Wohndesign",
+    "description": "Tony Militzer ist Spezialist für hochwertigen Innenausbau und maßgeschneiderte Küchenlösungen. Mit einem Auge für Ästhetik und hoher handwerklicher Präzision verwandelt er Räume in funktionale Wohnerlebnisse, wobei die individuellen Wünsche der Kunden stets im Zentrum stehen.",
+    "skills": ["Maßmöbelbau", "CAD-Küchenplanung", "Montagetechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Dominik Kirsten",
+    "name": "Bürgermeister Bad Lobenstein",
+    "short_description": "Kommunaler Gestalter und Repräsentant",
+    "description": "Als Bürgermeister von Bad Lobenstein setzt sich Dominik Kirsten leidenschaftlich für die Belange seiner Bürger ein. Sein Ziel ist die nachhaltige Stadtentwicklung, die Stärkung des Tourismusstandorts und die Förderung einer lebendigen, lokalen Gemeinschaft.",
+    "skills": ["Kommunalrecht", "Haushaltsplanung", "Öffentliche Repräsentation"],
+    "video_url": ""
+  },
   {
     "person": "Marcus Diedrich",
     "name": "Inhaber",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Engagierter Unternehmer mit regionaler Wurzel",
+    "description": "Mit langjähriger Erfahrung als Inhaber führt er seinen Betrieb mit persönlicher Leidenschaft und einem starken Fokus auf Kundennähe. Er steht für Verlässlichkeit im Handwerk und setzt konsequent auf Qualität und individuelle Lösungen für seine regionale Klientel.",
+    "skills": ["Handwerksmanagement", "Kalkulation", "Kundenakquise"],
     "video_url": ""
   },
-
   {
     "person": "Pierre Geyer",
     "name": "Inhaber next.motion",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Vordenker für digitale Lösungen",
+    "description": "Als Kopf der Agentur next.motion begleitet er Unternehmen bei der digitalen Transformation. Seine Expertise umfasst die Konzeption komplexer Web-Projekte, digitales Marketing und die Entwicklung zukunftsfähiger IT-Strategien, die Marken im digitalen Raum sichtbarer machen.",
+    "skills": ["E-Commerce-Strategie", "UX/UI-Konzeption", "Digitales Projektmanagement"],
     "video_url": ""
   },
-
+  {
+    "person": "Frank Gröters",
+    "name": "Inhaber Landgasthof \"Wetteraperle\"",
+    "short_description": "Gastgeber aus Leidenschaft",
+    "description": "Frank Gröters führt den Landgasthof 'Wetteraperle' mit Herz und Seele. Er steht für traditionelle Gastlichkeit, kombiniert mit einer authentischen regionalen Küche, und schafft einen Ort der Begegnung und des Genusses im Herzen der Region.",
+    "skills": ["Gastronomisches Management", "Menügestaltung", "Event-Logistik"],
+    "video_url": ""
+  },
   {
     "person": "Dirk Heinrich",
     "name": "Vorstand Sparkasse SOK",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Finanzstratege für den Mittelstand",
+    "description": "In seiner Funktion als Vorstand der Sparkasse Saale-Orla gestaltet er maßgeblich die Finanzlandschaft der Region mit. Er setzt sich für die Förderung des lokalen Mittelstands ein und verantwortet nachhaltige Investitionsstrategien, die Wirtschaftswachstum und Stabilität vereinen.",
+    "skills": ["Risikomanagement", "Unternehmensfinanzierung", "Asset Management"],
     "video_url": ""
   },
-
+  {
+    "person": "Guido Kant-von der Recke",
+    "name": "Bürgermeister Wurzbach",
+    "short_description": "Verantwortungsvoller Lokalpolitiker",
+    "description": "Als Bürgermeister der Stadt Wurzbach widmet er sich der zukunftsorientierten Entwicklung seiner Gemeinde. Er fördert den Dialog zwischen Bürgern, Wirtschaft und Politik, um die Lebensqualität vor Ort nachhaltig zu steigern und Infrastrukturen zu modernisieren.",
+    "skills": ["Fördermittelakquise", "Gremienarbeit", "Infrastrukturplanung"],
+    "video_url": ""
+  }, 
   {
     "person": "Dr. Manuela Mahn",
     "name": "Gewürzwissenschaftlerin Gastrosophin",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Expertin für kulinarische Kultur und Sensorik",
+    "description": "Dr. Manuela Mahn verbindet wissenschaftliche Tiefe mit kulinarischer Praxis. Als Gastrosophin erforscht sie die Welt der Gewürze und vermittelt in Vorträgen und Beratungen, wie eng Ernährung, Kultur und Sensorik miteinander verknüpft sind, um echten Genuss erlebbar zu machen.",
+    "skills": ["Sensorische Analyse", "Lebensmittelchemie", "Kulinarische Fachberatung"],
     "video_url": ""
   },
-
   {
     "person": "Frank Schlottke",
     "name": "IT-Spezialist",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Architekt digitaler Infrastrukturen",
+    "description": "Frank Schlottke ist Experte für die Implementierung und Betreuung komplexer IT-Systeme. Sein Schwerpunkt liegt auf der IT-Sicherheit und der Optimierung von Netzwerkarchitekturen, um Unternehmen vor modernen Bedrohungen zu schützen und reibungslose digitale Workflows zu garantieren.",
+    "skills": ["Netzwerkadministration", "Cyber-Security", "Server-Virtualisierung"],
     "video_url": ""
   },
-
   {
     "person": "Mike Schmidt",
     "name": "Fahrradhändler",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Fachmann für nachhaltige Zweiradmobilität",
+    "description": "Mit tiefer Fachkenntnis und Leidenschaft für Fahrräder führt er sein Fachgeschäft. Er ist nicht nur Verkäufer, sondern Berater für moderne E-Bike-Technologie und individuelle Mobilitätskonzepte, wobei der Service und die technische Perfektion am Rad immer im Mittelpunkt stehen.",
+    "skills": ["E-Bike-Diagnose", "Fahrwerkanpassung", "Sortimentsgestaltung"],
     "video_url": ""
   },
-
   {
     "person": "Daniela Singer",
     "name": "Unternehmerin",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Visionäre Macherin",
+    "description": "Daniela Singer zeichnet sich durch ihren unternehmerischen Mut und ihre Umsetzungsstärke aus. Sie entwickelt innovative Geschäftsideen und versteht es, Teams zu motivieren und Prozesse effizient zu gestalten, um auch in dynamischen Märkten erfolgreich zu bestehen.",
+    "skills": ["Unternehmensgründung", "Prozessoptimierung", "Stakeholder-Management"],
     "video_url": ""
   },
-
   {
     "person": "Björn Walther",
     "name": "Video/ Foto - Produktion",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Kreativer Kopf für visuelle Kommunikation",
+    "description": "Als Spezialist für audiovisuelle Medien produziert er hochwertigen Content, der Geschichten erzählt. Von der Konzeption über den Dreh bis zum Postproduction-Finish verwandelt er komplexe Botschaften in emotionale Bilder und Videos, die im Gedächtnis bleiben.",
+    "skills": ["Kameraführung", "Videoschnitt", "Lichtgestaltung"],
+    "video_url": ""
+  },
+  {
+    "person": "Jörg Wittig",
+    "name": "Apotheker",
+    "short_description": "Gesundheitsexperte mit pharmazeutischem Tiefblick",
+    "description": "Jörg Wittig steht als Apotheker für eine kompetente medizinische Beratung und eine zuverlässige Versorgung der Bevölkerung. Er verbindet pharmazeutisches Fachwissen mit einer ganzheitlichen Sicht auf Gesundheit und Wohlbefinden seiner Kunden.",
+    "skills": ["Pharmakologie", "Rezepturherstellung", "Gesundheitsprävention"],
     "video_url": ""
   },
   {
     "person": "Nina Hoffmann",
     "name": "Profi-Sportler MTB",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Weltklasse-Athletin im Downhill",
+    "description": "Als eine der erfolgreichsten deutschen Downhill-Fahrerinnen auf internationalem Parkett beweist Nina Hoffmann tägliche Höchstleistung. Sie verbindet technisches Fahrkönnen mit extremer mentaler Disziplin und ist ein Vorbild für Ausdauer und Siegeswillen im Spitzensport.",
+    "skills": ["Hochleistungstraining", "Fahrradtechnik-Setup", "Wettkampfstrategie"],
     "video_url": ""
   },
   {
     "person": "Sven-Ole Müller",
     "name": "Ultraausdauersportler",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
-    "video_url": "" 
+    "short_description": "Spezialist für mentale und physische Grenzen",
+    "description": "Sven-Ole Müller bestreitet Wettbewerbe, die weit über das normale Maß hinausgehen. Durch seine Erfahrung im Ultra-Ausdauersport gibt er wertvolle Impulse zu den Themen Selbstmotivation, Grenzwerterfahrungen und der Kraft der mentalen Fokussierung.",
+    "skills": ["Leistungsdiagnostik", "Ernährungsplanung", "Mentaltraining"],
+    "video_url": ""
   },
   {
     "person": "Carolin Pfeffer",
     "name": "Fitness-Coach",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Ganzheitliche Expertin für Vitalität",
+    "description": "Carolin Pfeffer unterstützt Menschen dabei, ihre physische Bestform zu erreichen. Ihr Coaching-Ansatz ist ganzheitlich: Sie kombiniert funktionelles Training mit Ernährungsberatung und mentaler Begleitung, um nachhaltige Verhaltensänderungen im Alltag zu bewirken.",
+    "skills": ["Biomechanik", "Trainingslehre", "Ernährungsmedizin"],
     "video_url": ""
   },
   {
     "person": "Philipp Stich",
     "name": "Motorradrennfahrer/ Holzbau, Mitglied Zimmerer Nationalmannschaft",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Meister des Handwerks und der Geschwindigkeit",
+    "description": "Philipp Stich verkörpert die perfekte Symbiose aus handwerklicher Präzision und sportlichem Adrenalin. Als Mitglied der Zimmerer-Nationalmannschaft steht er für höchste Qualität am Bau, während er auf der Rennstrecke als Motorradrennfahrer sein Gefühl für Dynamik und Technik beweist.",
+    "skills": ["Zimmerer-Konstruktion", "Fahrzeugdynamik", "Werkstoffkunde Holz"],
     "video_url": ""
   },
   {
     "person": "Marcus Bischof",
     "name": "Musiker",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Vielseitiger Künstler und Performer",
+    "description": "Marcus Bischof bereichert die Kulturszene mit seinem musikalischen Talent. Sein Repertoire erstreckt sich über verschiedene Genres, wobei er durch handwerkliches Können am Instrument und eine starke Bühnenpräsenz sein Publikum begeistert und emotionale Erlebnisse schafft.",
+    "skills": ["Instrumentaltechnik", "Musiktheorie", "Audiotechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Patrick Enterlein",
+    "name": "Spenglermeister",
+    "short_description": "Präzisionshandwerk am Bau",
+    "description": "Als Spenglermeister ist Patrick Enterlein Experte für die Gestaltung und Abdichtung von Gebäudehüllen aus Metall. Sein Fokus liegt auf langlebigen Konstruktionen, technischer Exzellenz und der Umsetzung architektonisch anspruchsvoller Details im Blechhandwerk.",
+    "skills": ["Blechbearbeitung", "Fassadenbau", "Löt- und Schweißtechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Christian Caspari",
+    "name": "Referent für Ausbildung und Personalentwicklung Sparkasse SOK",
+    "short_description": "Förderer junger Talente",
+    "description": "Christian Caspari verantwortet die Ausbildung und strategische Personalentwicklung. Sein Fokus liegt auf der Gewinnung und Begleitung von Nachwuchskräften sowie der Implementierung moderner Lernkonzepte, um die Zukunftsfähigkeit der Sparkasse als attraktiver Arbeitgeber zu sichern.",
+    "skills": ["Bildungsmanagement", "Eignungsdiagnostik", "Curriculumentwicklung"],
+    "video_url": ""
+  },  
+  {
+    "person": "Pater Matthias",
+    "name": "Personalmanager, Psychologe, Priester",
+    "short_description": "Seelsorge trifft auf psychologische Expertise",
+    "description": "Pater Matthias vereint theologische Tiefe mit psychologischem Fachwissen und Managementerfahrung. Er begleitet Menschen und Organisationen in Veränderungsprozessen und bietet Unterstützung in Fragen der persönlichen Entwicklung sowie der ethischen Unternehmensführung.",
+    "skills": ["Klinische Psychologie", "Coaching", "Mediation"],
     "video_url": ""
   },
   {
     "person": "Matthias Gehler",
     "name": "Autor/Musiker/Theologe",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Publizist mit ethischem Kompass",
+    "description": "Mit seinem Hintergrund in Theologie, Journalismus und Musik bringt Matthias Gehler eine vielschichtige Perspektive in gesellschaftliche Diskurse ein. Er ist ein gefragter Redner und Autor, der Wertefragen und kulturelle Identität in den Mittelpunkt seines Schaffens stellt.",
+    "skills": ["Redaktionelles Schreiben", "Kulturjournalismus", "Vortragstechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Lukas Müller",
+    "name": "Perthel Stahlbau GmbH",
+    "short_description": "Spezialist für modernen Stahlbau",
+    "description": "In der Perthel Stahlbau GmbH ist Lukas Müller ein kompetenter Ansprechpartner für industrielle Bauprojekte. Er begleitet Konstruktionsprozesse von der Planung bis zur Fertigung und steht für die Umsetzung komplexer Stahlbau-Lösungen nach höchsten Sicherheitsstandards.",
+    "skills": ["Statikberechnung", "Stahlbaumontage", "Schweißfachingenieurwesen"],
     "video_url": ""
   },
   {
     "person": "Matthias Kaden",
     "name": "DJ",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Botschafter der elektronischen Musikkultur",
+    "description": "Als international gefragter DJ und Produzent ist Matthias Kaden ein Aushängeschild der elektronischen Musikszene. Er versteht es wie kaum ein anderer, weltweit Clubs und Festivals zu bespielen und dabei stets die Verbindung zu seiner thüringischen Heimat und seinen musikalischen Wurzeln zu wahren.",
+    "skills": ["Musikproduktion", "Beatmatching", "Event-Produktion"],
     "video_url": ""
   },
   {
     "person": "Franziska Misselwitz",
     "name": "Freischaffende Künstlerin",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Visualisierung kreativer Konzepte",
+    "description": "Franziska Misselwitz nutzt ihre Kunst, um gesellschaftliche Themen und persönliche Beobachtungen in eine visuelle Sprache zu übersetzen. Ihre Werke zeichnen sich durch Individualität und eine tiefgründige Ästhetik aus, die den Betrachter zur Reflexion einlädt.",
+    "skills": ["Maltechniken", "Konzeptentwicklung", "Ausstellungskuration"],
+    "video_url": ""
+  },
+  {
+    "person": "Chris Sommer-Blumenstein",
+    "name": "Redakteur WiYou Magazin",
+    "short_description": "Journalist für Jugend und Karriere",
+    "description": "Als Redakteur beim WiYou Magazin bereitet Chris Sommer-Blumenstein Themen rund um Ausbildung, Studium und Berufsorientierung auf. Er versteht es, relevante Inhalte zielgruppengerecht zu kommunizieren und junge Menschen bei ihrem Start ins Berufsleben zu unterstützen.",
+    "skills": ["Print-Redaktion", "Recherchetechnik", "Content-Marketing"],
     "video_url": ""
   },
   {
     "person": "Bastian Söllner",
     "name": "Bildender Künstler",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Ästhetik in Form und Material",
+    "description": "Bastian Söllner widmet sich der bildenden Kunst mit einem besonderen Fokus auf die Auseinandersetzung mit Räumlichkeit und Materialität. Seine Arbeiten sind geprägt von handwerklicher Exzellenz und einer zeitgenössischen Formensprache.",
+    "skills": ["Bildhauerei", "Materialforschung", "Räumliches Design"],
     "video_url": ""
   },
   {
     "person": "Susanne Däumer-Lenz",
     "name": "Koch/Gastronom",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
-    "video_url": ""
-  },
-  {
-    "person": "Christian Herrgott",
-    "name": "Landrat Saale-Orla-Kreis",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Kulinarische Botschafterin für Qualität",
+    "description": "In ihrer Gastronomie verbindet Susanne Däumer-Lenz handwerkliche Kochkunst mit herzlicher Gastfreundschaft. Sie setzt konsequent auf frische Produkte und kreative Rezepturen, um ihren Gästen ein unverwechselbares kulinarisches Erlebnis in der Region zu bieten.",
+    "skills": ["Profiküche", "HACCP-Management", "Gastronomie-Kalkulation"],
     "video_url": ""
   },
   {
     "person": "Bertram Kawlath",
     "name": "Vize-Präsident VDMA",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Stimme des deutschen Maschinenbaus",
+    "description": "Als Vize-Präsident des VDMA vertritt er die Interessen des deutschen Maschinen- und Anlagenbaus auf höchster Ebene. Er engagiert sich für technologische Innovationen, die Stärkung des Mittelstands und die Zukunftsfähigkeit der Industrie im globalen Wettbewerb.",
+    "skills": ["Lobbying", "Maschinenbau-Ingenieurwesen", "Wirtschaftspolitik"],
+    "video_url": ""
+  },
+  {
+    "person": "Jana Wurziger und Max Wunder",
+    "name": "Rettenmeier Holzindustrie Hirschberg GmbH",
+    "short_description": "Experten für nachhaltige Holzverarbeitung",
+    "description": "Das Team der Rettenmeier Holzindustrie in Hirschberg steht für eine moderne und ökologisch verantwortungsvolle Verarbeitung des Rohstoffs Holz. Sie betreuen komplexe Produktionsabläufe und sichern die Qualität hochwertiger Holzprodukte für den internationalen Markt.",
+    "skills": ["Holztechnik", "Produktionssteuerung", "Lieferkettenmanagement"],
+    "video_url": ""
+  },
+  {
+    "person": "Jan hartmann",
+    "name": "Fotograf",
+    "short_description": "Meister des Augenblicks",
+    "description": "Jan Hartmann ist Fotograf mit einem Blick für das Besondere. Seine Arbeiten umfassen Porträt-, Architektur- und Reportagefotografie, wobei er durch gezielte Lichtsetzung und Bildkomposition Stimmungen authentisch einfängt und visuell beeindruckende Ergebnisse liefert.",
+    "skills": ["Porträtfotografie", "Digitale Bildbearbeitung", "Studiobeleuchtung"],
+    "video_url": ""
+  },
+  {
+    "person": "Jan Fischer",
+    "name": "CGI - Artist",
+    "short_description": "Gestalter virtueller Realitäten",
+    "description": "Als CGI-Artist erschafft Jan Fischer beeindruckende Computer-Visualisierungen. Er verwandelt abstrakte Daten und Konzepte in fotorealistische 3D-Bilder und Animationen, die vor allem im Produktdesign und der Architekturvisualisierung neue Standards setzen.",
+    "skills": ["3D-Sculpting", "Physik-Simulation", "Texturierung"],
     "video_url": ""
   },
   {
     "person": "Bernd Koob",
     "name": "Oberstleutnant a. D., Unternehmer Bereich erneuerbare Energie",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Experte für Führung und Energiewende",
+    "description": "Bernd Koob bringt seine jahrzehntelange Führungserfahrung aus der Bundeswehr in den zivilen Sektor ein. Als Unternehmer im Bereich erneuerbare Energien treibt er Projekte zur nachhaltigen Stromerzeugung voran und verbindet strategische Planung mit ökologischer Verantwortung.",
+    "skills": ["Krisenmanagement", "Energieprojektentwicklung", "Strategisches Leadership"],
     "video_url": ""
   },
   {
     "person": "Christian Korb",
-    "name": "Landwirt(konventionell)",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "name": "Landwirt (konventionell)",
+    "short_description": "Erfahrener Produzent regionaler Lebensmittel",
+    "description": "Christian Korb führt einen modernen landwirtschaftlichen Betrieb und steht für eine verantwortungsbewusste, konventionelle Landwirtschaft. Sein Fokus liegt auf der Erzeugung hochwertiger Nahrungsmittel unter Berücksichtigung moderner Anbaumethoden und Ressourceneffizienz.",
+    "skills": ["Pflanzenbau", "Agrar-Betriebswirtschaft", "Nutztiermanagement"],
+    "video_url": ""
+  },
+  {
+    "person": "Christian Wilhelm",
+    "name": "Sommelier",
+    "short_description": "Kenner edler Tropfen",
+    "description": "Als Sommelier ist Christian Wilhelm Experte für Weinkultur und gehobenen Genuss. Er berät zu Rebsorten, Anbaugebieten und der perfekten Korrespondenz von Speisen und Getränken, um seinen Gästen ein harmonisches kulinarisches Gesamterlebnis zu ermöglichen.",
+    "skills": ["Kellerwirtschaft", "Wein-Degustation", "Beverage-Management"],
     "video_url": ""
   },
   {
     "person": "Anja Kuschick-Büttner",
     "name": "Vorsitz Behindertenverband Saale-Orla-Kreis e.V.",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Vorkämpferin für soziale Inklusion",
+    "description": "Anja Kuschick-Büttner setzt sich leidenschaftlich für die Rechte und die Teilhabe von Menschen mit Behinderung ein. Durch ihre Arbeit im Verband schafft sie Bewusstsein für Barrierefreiheit und unterstützt Betroffene bei der Bewältigung ihres Alltags in der Gesellschaft.",
+    "skills": ["Sozialberatung", "Projektmanagement NGO", "Barrierefreie Planung"],
     "video_url": ""
   },
   {
     "person": "Stephanie Ladwig",
     "name": "Theologin/Pastorin",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Geistliche Begleitung in moderner Zeit",
+    "description": "Stephanie Ladwig verbindet traditionelle kirchliche Werte mit den Fragen unserer Zeit. Als Pastorin ist sie Seelsorgerin und Impulsgeberin, die Menschen in verschiedenen Lebensphasen begleitet und sich aktiv für ein lebendiges Gemeindeleben einsetzt.",
+    "skills": ["Homiletik", "Seelsorgliche Gesprächsführung", "Kirchenmanagement"],
     "video_url": ""
   },
   {
     "person": "Wolfgang Ladwig",
     "name": "Förster",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Fachmann für Waldökologie",
+    "description": "Wolfgang Ladwig widmet sich der Bewirtschaftung und dem Schutz unserer Wälder. Mit tiefem Wissen über ökologische Zusammenhänge sorgt er dafür, dass der Wald als Wirtschaftsraum, Erholungsgebiet und wichtiger Klimafaktor für kommende Generationen erhalten bleibt.",
+    "skills": ["Waldbauliche Planung", "Holzernte-Logistik", "Wildtiermanagement"],
     "video_url": ""
   },
   {
     "person": "Katharina Pietzko",
     "name": "Forstamtsleiter/in",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Strategisches Management natürlicher Ressourcen",
+    "description": "In ihrer Position leitet sie das Forstamt und verantwortet die nachhaltige Entwicklung großer Waldflächen. Sie moderiert zwischen wirtschaftlichen Interessen der Holzindustrie und den Anforderungen des Naturschutzes sowie der Klimaanpassung im Forstsektor.",
+    "skills": ["Forstverwaltung", "Raumplanung", "Umweltökonomie"],
     "video_url": ""
   },
   {
     "person": "Wolfram Proppe",
     "name": "Winzer",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Handwerkliche Weinkultur aus Leidenschaft",
+    "description": "Wolfram Proppe steht für Weinbau mit Charakter. Mit viel Handarbeit und einem Gespür für Boden und Klima produziert er Weine, die ihre Herkunft widerspiegeln, und pflegt dabei die jahrhundertealte Tradition des Weinbaus in Verbindung mit moderner Kellertechnik.",
+    "skills": ["Weinbau-Technik", "Önologie", "Direktvermarktung"],
     "video_url": ""
   },
   {
-    "person": "Bodo Ramelow",
-    "name": "Ministerpräsident Thüringen",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "person": "Robin Seifarth",
+    "name": "SrtahlwerkDeluxe",
+    "short_description": "Künstlerische Metallverarbeitung",
+    "description": "Robin Seifarth erschafft unter dem Label 'StahlwerkDeluxe' individuelle Designobjekte und Möbel aus Metall. Seine Arbeit zeichnet sich durch den bewussten Einsatz von Industrieästhetik und handwerklicher Raffinesse aus, wodurch jedes Stück zum Unikat wird.",
+    "skills": ["Metallgestaltung", "Schweißtechnik", "CAD-Design"],
     "video_url": ""
   },
   {
     "person": "Robert Redlich",
     "name": "Handel Oldtimer, Influencer",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Spezialist für mobiles Kulturgut",
+    "description": "Robert Redlich verbindet den Handel mit klassischen Fahrzeugen mit moderner Reichweite in den sozialen Medien. Als Kenner der Oldtimer-Szene vermittelt er nicht nur Fahrzeuge, sondern das damit verbundene Lebensgefühl und technische Know-how an eine wachsende Community.",
+    "skills": ["KFZ-Begutachtung", "Online-Marketing", "Handelsmanagement"],
     "video_url": ""
   },
   {
     "person": "Michael Scharch",
     "name": "Braumeister",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Garant für traditionelles Brauhandwerk",
+    "description": "Als erfahrener Braumeister wacht Michael Scharch über den gesamten Brauprozess. Er kombiniert traditionelle Rezepturen mit modernster Produktionstechnik, um die Qualität und den unverwechselbaren Geschmack seiner Biere sicherzustellen.",
+    "skills": ["Brautechnologie", "Mikrobiologische Kontrolle", "Produktentwicklung"],
     "video_url": ""
   },
   {
-    "person": "Armin Steigis",
+    "person": "Karsten Drews",
+    "name": "HBS GmbH",
+    "short_description": "Experte für technische Gebäudeausrüstung",
+    "description": "Karsten Drews ist in der HBS GmbH für die Planung und Umsetzung komplexer Haustechnik-Projekte verantwortlich. Er steht für effiziente Heizungs-, Lüftungs- und Sanitärlösungen, die sowohl ökologischen als auch ökonomischen Anforderungen moderner Architektur gerecht werden.",
+    "skills": ["TGA-Projektleitung", "Energieberatung", "Versorgungstechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Karsten Anders",
+    "name": "Lehrer, Sozialpädagoge, DJ",
+    "short_description": "Facettenreicher Mentor und Entertainer",
+    "description": "Karsten Anders bringt Menschen auf unterschiedliche Weise zusammen. Als Pädagoge begleitet er Jugendliche bei ihrer Entwicklung, während er als DJ für die passende Atmosphäre auf Events sorgt – eine vielseitige Persönlichkeit, die Empathie mit musikalischer Leidenschaft verbindet.",
+    "skills": ["Sozialpädagogik", "Mediendidaktik", "Veranstaltungstechnik"],
+    "video_url": ""
+  },
+  {
+    "person": "Max Hutschenreuther",
+    "name": "IT-Consultant",
+    "short_description": "Berater für digitale Prozessoptimierung",
+    "description": "Max Hutschenreuther unterstützt Unternehmen dabei, ihre IT-Infrastrukturen effizienter zu gestalten. Er analysiert Geschäftsprozesse, empfiehlt passende Softwarelösungen und begleitet die Implementierung digitaler Strategien zur Steigerung der Wettbewerbsfähigkeit.",
+    "skills": ["Business-Analyse", "Software-Architektur", "IT-Service-Management"],
+    "video_url": ""
+  },
+  {
+    "person": "Armin Staigis",
     "name": "Diplomat, Brigadegeneral a. D.",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "short_description": "Stratege für Sicherheit und internationale Beziehungen",
+    "description": "Armin Staigis verfügt über eine beeindruckende Karriere in der Bundeswehr und im diplomatischen Dienst. Er ist ein gefragter Experte für geopolitische Analysen, Krisenprävention und sicherheitspolitische Strategien auf nationaler und internationaler Ebene.",
+    "skills": ["Internationale Politik", "Strategische Planung", "Diplomatische Verhandlung"],
+    "video_url": ""
+  },
+  {
+    "person": "Steffen Knoll",
+    "name": "Salesmanager, Fotograf",
+    "short_description": "Vertriebsprofi mit visuellem Gespür",
+    "description": "Steffen Knoll vereint die Welt des strategischen Vertriebs mit der Fotografie. Als Salesmanager versteht er Kundenbedürfnisse präzise zu adressieren, während er als Fotograf sein Auge für Details nutzt, um Produkte und Momente professionell in Szene zu setzen.",
+    "skills": ["Vertriebsleitung", "Produktfotografie", "Key-Account-Management"],
+    "video_url": ""
+  },
+  {
+    "person": "Steffen Walther",
+    "name": "Raum-Stil-Bau",
+    "short_description": "Ästhetik und Qualität am Bau",
+    "description": "Mit seinem Unternehmen Raum-Stil-Bau realisiert Steffen Walther anspruchsvolle Bau- und Sanierungsprojekte. Er steht für ganzheitliche Konzepte im Innenausbau und Fassadendesign, die modernes Design mit hochwertiger handwerklicher Ausführung verbinden.",
+    "skills": ["Bauleitung", "Trockenbautechnik", "Fassadensanierung"],
     "video_url": ""
   },
   {
     "person": "Henning Steinbock",
-    "name": "Landwirt(ökologisch)",
-    "short_description": "",
-    "description": "",
-    "skills": ["", ""],
+    "name": "Landwirt (ökologisch)",
+    "short_description": "Vordenker für regenerative Landwirtschaft",
+    "description": "Henning Steinbock setzt konsequent auf ökologische Bewirtschaftung und Kreislaufwirtschaft. Sein Ziel ist es, im Einklang mit der Natur gesunde Lebensmittel zu produzieren und dabei die Bodenfruchtbarkeit sowie die Artenvielfalt auf seinen Flächen nachhaltig zu steigern.",
+    "skills": ["Ökologischer Landbau", "Kreislaufwirtschaft", "Agrarökologie"],
     "video_url": ""
   }
 ]
-  

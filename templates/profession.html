@@ -15,7 +15,7 @@
   </header>
 
   <section>
-    <h2>Über den Beruf</h2>
+    <h2>Über {{ profession.person }}</h2>
     <p>{{ profession.description }}</p>
     <h3>benötigte Fähigkeiten:</h3>
     <ul>
@@ -24,10 +24,7 @@
       {% endfor %}
     </ul>
     {% if profession.video_url %}
-    <video width="560" controls>
-      <source src="{{ url_for('static', filename='videos/' ~ profession.video_url) }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img width="560" height="315" src="{{ url_for('static', filename='videos/' ~ profession.video_url) }}" alt="IMG">
     {% endif %}
 
   </section>
