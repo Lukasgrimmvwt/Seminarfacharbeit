@@ -38,10 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     localStorage.setItem('cookiePreferences', JSON.stringify(prefs));
     cookieConsent.style.display = 'none';
-    // Starte die Datenerfassung, wenn Performance-Cookies erlaubt sind
-    if (prefs.performanceCookies) {
-      initDataCollection();
-    }
+
   });
   
   // Öffne das Cookie-Einstellungen-Modal
@@ -71,42 +68,12 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('cookiePreferences', JSON.stringify(prefs));
     cookieSettingsModal.style.display = 'none';
     cookieConsent.style.display = 'none';
-    // Starte die Datenerfassung, wenn Performance-Cookies erlaubt sind
-    if (prefs.performanceCookies) {
-      initDataCollection();
-    }
   });
   
   // Schließe das Modal ohne Änderungen
   cancelCookieSettingsBtn.addEventListener('click', function() {
     cookieSettingsModal.style.display = 'none';
   });
-  
-  /* ------------------------------
-     Datenerfassung (Analytics)
-     ------------------------------ */
-  function initDataCollection() {
-    console.log("Performance-Cookies erlaubt – Starte Datenerfassung");
-    
-    // Erfasse einen Page-View
-    logEvent({
-      event: "page_view",
-      url: window.location.href,
-      timestamp: new Date().toISOString()
-    });
-    
-    // Beispiel: Erfasse Klick-Ereignisse
-    document.addEventListener('click', function(e) {
-      const target = e.target;
-      logEvent({
-        event: "click",
-        element: target.tagName,
-        id: target.id,
-        classes: target.className,
-        timestamp: new Date().toISOString()
-      });
-    });
-  }
   
   // Funktion, um Ereignisdaten an den Server zu senden
   function logEvent(eventData) {
@@ -125,15 +92,4 @@ document.addEventListener('DOMContentLoaded', function() {
     .catch(error => console.error('Error logging event:', error));
   }
   
-  // Falls bereits Cookie-Präferenzen existieren, starte die Datenerfassung
-  if (cookiePrefs) {
-    try {
-      const prefsObj = JSON.parse(cookiePrefs);
-      if (prefsObj.performanceCookies) {
-        initDataCollection();
-      }
-    } catch (e) {
-      console.error("Fehler beim Parsen der Cookie-Präferenzen:", e);
-    }
-  }
 });
