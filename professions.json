@@ -8,7 +8,7 @@
   },
   {
     "person": "Tony Militzer",
-    "name": "Küchen-/Innenausbau",
+    "name": "Küchen-, Innenausbau",
     "short_description": "Experte für individuelles Wohndesign",
     "description": "Tony Militzer ist Spezialist für hochwertigen Innenausbau und maßgeschneiderte Küchenlösungen. Mit einem Auge für Ästhetik und hoher handwerklicher Präzision verwandelt er Räume in funktionale Wohnerlebnisse, wobei die individuellen Wünsche der Kunden stets im Zentrum stehen.",
     "skills": ["Maßmöbelbau", "CAD-Küchenplanung", "Montagetechnik"]
@@ -85,7 +85,7 @@
   },
   {
     "person": "Björn Walther",
-    "name": "Video/ Foto - Produktion",
+    "name": "Video, Foto - Produktion",
     "short_description": "Kreativer Kopf für visuelle Kommunikation",
     "description": "Als Spezialist für audiovisuelle Medien produziert er hochwertigen Content, der Geschichten erzählt. Von der Konzeption über den Dreh bis zum Postproduction-Finish verwandelt er komplexe Botschaften in emotionale Bilder und Videos, die im Gedächtnis bleiben.",
     "skills": ["Kameraführung", "Videoschnitt", "Lichtgestaltung"]
@@ -120,7 +120,7 @@
   },
   {
     "person": "Philipp Stich",
-    "name": "Motorradrennfahrer/ Holzbau, Mitglied Zimmerer Nationalmannschaft",
+    "name": "Motorradrennfahrer, Holzbau, Mitglied Zimmerer Nationalmannschaft",
     "short_description": "Meister des Handwerks und der Geschwindigkeit",
     "description": "Philipp Stich verkörpert die perfekte Symbiose aus handwerklicher Präzision und sportlichem Adrenalin. Als Mitglied der Zimmerer-Nationalmannschaft steht er für höchste Qualität am Bau, während er auf der Rennstrecke als Motorradrennfahrer sein Gefühl für Dynamik und Technik beweist.",
     "skills": ["Zimmerer-Konstruktion", "Fahrzeugdynamik", "Werkstoffkunde Holz"]
@@ -155,7 +155,7 @@
   },
   {
     "person": "Matthias Gehler",
-    "name": "Autor/Musiker/Theologe",
+    "name": "Autor, Musiker, Theologe",
     "short_description": "Publizist mit ethischem Kompass",
     "description": "Mit seinem Hintergrund in Theologie, Journalismus und Musik bringt Matthias Gehler eine vielschichtige Perspektive in gesellschaftliche Diskurse ein. Er ist ein gefragter Redner und Autor, der Wertefragen und kulturelle Identität in den Mittelpunkt seines Schaffens stellt.",
     "skills": ["Redaktionelles Schreiben", "Kulturjournalismus", "Vortragstechnik"]
@@ -197,7 +197,7 @@
   },
   {
     "person": "Susanne Däumer-Lenz",
-    "name": "Koch/Gastronom",
+    "name": "Köchin, Gastronomin",
     "short_description": "Kulinarische Botschafterin für Qualität",
     "description": "In ihrer Gastronomie verbindet Susanne Däumer-Lenz handwerkliche Kochkunst mit herzlicher Gastfreundschaft. Sie setzt konsequent auf frische Produkte und kreative Rezepturen, um ihren Gästen ein unverwechselbares kulinarisches Erlebnis in der Region zu bieten.",
     "skills": ["Profiküche", "HACCP-Management", "Gastronomie-Kalkulation"]
@@ -217,7 +217,7 @@
     "skills": ["Holztechnik", "Produktionssteuerung", "Lieferkettenmanagement"]
   },
   {
-    "person": "Jan hartmann",
+    "person": "Jan Hartmann",
     "name": "Fotograf",
     "short_description": "Meister des Augenblicks",
     "description": "Jan Hartmann ist Fotograf mit einem Blick für das Besondere. Seine Arbeiten umfassen Porträt-, Architektur- und Reportagefotografie, wobei er durch gezielte Lichtsetzung und Bildkomposition Stimmungen authentisch einfängt und visuell beeindruckende Ergebnisse liefert.",
@@ -260,7 +260,7 @@
   },
   {
     "person": "Stephanie Ladwig",
-    "name": "Theologin/Pastorin",
+    "name": "Theologin, Pastorin",
     "short_description": "Geistliche Begleitung in moderner Zeit",
     "description": "Stephanie Ladwig verbindet traditionelle kirchliche Werte mit den Fragen unserer Zeit. Als Pastorin ist sie Seelsorgerin und Impulsgeberin, die Menschen in verschiedenen Lebensphasen begleitet und sich aktiv für ein lebendiges Gemeindeleben einsetzt.",
     "skills": ["Homiletik", "Seelsorgliche Gesprächsführung", "Kirchenmanagement"]
@@ -274,7 +274,7 @@
   },
   {
     "person": "Katharina Pietzko",
-    "name": "Forstamtsleiter/in",
+    "name": "Forstamtsleiterin",
     "short_description": "Strategisches Management natürlicher Ressourcen",
     "description": "In ihrer Position leitet sie das Forstamt und verantwortet die nachhaltige Entwicklung großer Waldflächen. Sie moderiert zwischen wirtschaftlichen Interessen der Holzindustrie und den Anforderungen des Naturschutzes sowie der Klimaanpassung im Forstsektor.",
     "skills": ["Forstverwaltung", "Raumplanung", "Umweltökonomie"]
